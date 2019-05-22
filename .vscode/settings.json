@@ -1,15 +1,39 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-	"files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/.DS_Store": true,
-		"**/*.js": {"when": "$(basename).ts"},
-		"**/*.js.map": {"when": "$(basename)"}
-  },
-  "editor.insertSpaces": false,
-  "editor.tabSize": 2,
-	"editor.detectIndentation": false,
-	"typescript.tsdk": "./node_modules/typescript/lib"
+	"editor.tabSize": 2,
+	"editor.detectIndentation": true,
+	"go.formatTool": "gofmt",
+	"workbench.statusBar.visible": true,
+	"window.menuBarVisibility": "toggle",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	"editor.minimap.enabled": false,
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": false,
+	"editor.fontSize": 12,
+	"workbench.editor.enablePreview": false,
+	"editor.rulers": [80],
+	"extensions.ignoreRecommendations": false,
+	"[javascriptreact]": {},
+	"files.associations": {
+		"*.js": "javascript"
+	},
+	"[javascript]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+	},
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "all",
+	"prettier.eslintIntegration": true,
+	"window.zoomLevel": 0,
+	"editor.fontFamily": "Consolas, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+	"javascript.updateImportsOnFileMove.enabled": "never",
+	"window.titleBarStyle": "native",
+	"editor.copyWithSyntaxHighlighting": false,
+	"workbench.colorTheme": "One Dark Pro Vivid",
+	"python.pythonPath": "/usr/bin/python3",	
+	"python.formatting.provider": "autopep8",
+	"python.formatting.autopep8Args": ["--max-line-length", "80", "--experimental"]
 }
